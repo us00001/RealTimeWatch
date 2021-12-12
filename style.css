@@ -1,0 +1,43 @@
+.main {
+    /* font-size: 175px; */
+    width: 900px;
+    margin: 200px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 20px;
+    }
+body{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+.main{
+    background-color: chocolate;
+    padding: 5px;
+    border-radius: 7px;
+    animation: bordercolor 7s linear infinite;
+}
+
+@keyframes bordercolor{
+    0%{background-color: rgb(170, 103, 233)}
+    30%{background-color: darkorange}
+    50%{background-color: chartreuse}
+    70%{background-color: rgb(65, 196, 240)}
+    100%{background-color: yellow}
+}
+#head{
+    font-size: xx-large;
+    font-style: italic;
+    font-variant: small-caps;
+    color: rgb(5, 88, 23);
+ 
+    }
+    span{
+        font-size: x-large;
+        font-style: italic;
+        font-weight: 200;
+        color:rgb(5, 69, 78)
+    }
+    h3{
+        color: brown;
+        font-style: italic;
+    }
